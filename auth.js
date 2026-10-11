@@ -10,6 +10,7 @@ import {
 
 // 1. REPLACE THIS BLOCK with your own config from the Firebase Console
 // (Go to Project Settings > General > Your Apps > Web App)
+/*
 const firebaseConfig = {
   apiKey: "YOUR_API_KEY",
   authDomain: "YOUR_AUTH_DOMAIN",
@@ -17,6 +18,18 @@ const firebaseConfig = {
   storageBucket: "YOUR_STORAGE_BUCKET",
   messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
   appId: "YOUR_APP_ID"
+};
+*/
+
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyDLokcf1DTJKbgDRgATpJgSI7-D92eJUgA",
+  authDomain: "schedule-replacement.firebaseapp.com",
+  projectId: "schedule-replacement",
+  storageBucket: "schedule-replacement.firebasestorage.app",
+  messagingSenderId: "819033661646",
+  appId: "1:819033661646:web:56894523398a7a2a00709f",
+  measurementId: "G-VXT0W9KB95"
 };
 
 // 2. Initialize Firebase and Auth services
